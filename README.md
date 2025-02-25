@@ -42,19 +42,24 @@ To run the dashboard locally, you need to have Python installed along with the r
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/supply-chain-analytics-dashboard.git
-   cd supply-chain-analytics-dashboard
+   
 Create a virtual environment (recommended):
 
 bash
 Copy
+
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate  # On Windows use `venv\Scripts\activate
 Install the required libraries:
 
 bash
 Copy
 pip install -r requirements.txt
 Run the Streamlit app:
+
+
+main.py is the main file 
+
 
 bash
 Copy
